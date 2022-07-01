@@ -1,0 +1,161 @@
+
+
+#invate {
+    margin:auto;
+    text-align: center;
+    width: 50%;
+}
+
+#first_p {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+
+#grey_border {
+    background-color: #b1b1b1;
+    border-radius: 10px;
+    margin: 10px;
+    padding:  5px 5px 5px 40px;
+}
+
+#main_page {
+    background-color: white;
+    padding: 20px;
+    margin-right: 10px;
+    
+}
+
+#main_page h2{
+    margin-top: 20px;
+}
+
+#separate {
+    display: grid;
+    grid-template-columns: 1% 99%;
+
+}
+
+#left_shadow {
+    background-color: #e3e3e3;
+}
+
+.four_blocks {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    text-align: left;
+    line-height: 35px;
+}
+
+.box_color {
+    background-color: brown;
+}
+.four_blocks div {
+    height: 200px;
+    padding: 10px;
+}
+
+div h1 {
+    margin: auto;
+    width: 300px;
+}
+
+#picture_1 {
+    margin: auto;
+    width: 300px;
+  
+}
+
+.sample_link {
+    text-align: right;
+}
+
+.sample_link a {
+    text-decoration: none;
+}
+.sample_link h3 { 
+    padding: 0;
+    margin: 0;
+    margin-right: 50px;
+    font-size: 35px;
+}
+
+table {
+    width: 95%;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+table td {
+    padding: 20px;
+    line-height: 30px;
+}
+
+td.column {
+    padding: 15px;
+}
+
+tr.row { 
+    background-color: grey;
+    border-color: rgb(211, 205, 205);
+    height: 50px;
+}
+
+.grid_mix {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    height: 600px;
+}
+
+
+.grid_mix p{
+   text-align: justify;
+}
+
+.grid_mix div {
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+#it{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+}
+
+.bottom {
+
+}
+
+.two_ul{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+ ul {
+    display: flex;
+    border-left: 10px solid green;
+    height: 540px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ li {
+    margin-bottom: 50px;
+    margin-left: 50px;
+ }
+
+ .marker li::marker {
+    color: lightgreen;
+    font-size: 60px;
+}
